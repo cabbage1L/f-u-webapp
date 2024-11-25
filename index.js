@@ -20,8 +20,6 @@ const homeControl = require('./controllers/homeControl');
 const adpostControl = require('./controllers/adpostControl');
 const findAndUpdate = require('./controllers/findAndUpdate');
 
-
-
 const postControl = require('./controllers/postControl');
 
 
