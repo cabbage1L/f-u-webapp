@@ -1,5 +1,4 @@
 const express = require('express');
-const axios = require('axios');
 const dotenv = require('dotenv');
 const path = require('path');
 const multer = require('multer');
@@ -7,7 +6,6 @@ const expressSession = require('express-session');
 const flash = require('connect-flash');
 const ejs = require('ejs')
 
-const { BlobServiceClient } = require('@azure/storage-blob');
 const mongoose = require('mongoose');
 
 const bodyParser = require('body-parser');
